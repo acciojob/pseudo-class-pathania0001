@@ -7,14 +7,14 @@
 
 /* Pseudo-element BEFORE */
 #container::before {
-  content: "Start of Content - ";
+  content: "Before Element";
   color: #f00;
   font-size: 20px;
 }
 
 /* Pseudo-element AFTER */
 #container::after {
-  content: " - End of Content";
+  content: " After Element";
   color: #f00;
   font-size: 20px;
 }
