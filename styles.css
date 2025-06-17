@@ -1,1 +1,20 @@
 /*  your css code here. If applicable */
+#container {
+  margin: 20px;
+  font-size: 18px;
+  position: relative;
+}
+
+/* Pseudo-element BEFORE */
+#container::before {
+  content: "Start of Content - ";
+  color: #f00;
+  font-size: 20px;
+}
+
+/* Pseudo-element AFTER */
+#container::after {
+  content: " - End of Content";
+  color: #f00;
+  font-size: 20px;
+}
